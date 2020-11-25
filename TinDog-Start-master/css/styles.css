@@ -54,8 +54,13 @@ h1 {
   transform: rotate(25deg);
 }
 
-.fas {
+.icon {
   color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68
 }
 
 h3 {
@@ -69,5 +74,11 @@ p {
 }
 
 #features {
+  padding: 7% 15%;
   text-align: center;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
 }
