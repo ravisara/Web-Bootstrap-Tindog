@@ -16,7 +16,7 @@ h1 {
 h2 {
   font-family: "Montserrat-Bold";
   font-size: 3rem;
-  line-height: 1.5rem;
+  line-height: 1.5;
 }
 
 h3 {
@@ -86,7 +86,6 @@ p {
 
 /* Testimonials section */
 #testimonials {
-  padding: 7% 15%;
   background-color: #ef8172;
   text-align: center;
   color: #fff;
@@ -98,6 +97,10 @@ p {
   margin: 20px;
 }
 
+.carousel-item {
+  padding: 7% 15%;
+}
+
 /* Press section */
 #press {
   background-color: #ef8172;
@@ -107,5 +110,5 @@ p {
 
 .press-logo {
   width: 15%;
-  margin: 10px 20px 50px;
+  margin: 20px 20px 50px;
 }
