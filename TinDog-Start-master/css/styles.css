@@ -1,10 +1,12 @@
+
+/* Title section */
 #title {
   background-color: #ff4c68;
   color: #fff;
 }
 
-.conainer-fluid {
-  padding: 3% 15%;
+.container-fluid {
+   padding: 3% 15% 7%;
 }
 
 h1 {
@@ -59,9 +61,13 @@ p {
   margin-right: 10px;
 }
 
-.iphoneImage {
+.title-image {
+
+  /* width: 60%; Although in the course answer this is used, this makes the image go larger than even the actaul size*/
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 .icon {
@@ -77,6 +83,8 @@ p {
 #features {
   padding: 7% 15%;
   text-align: center;
+  background-color: white;
+  position: relative;
 }
 
 .feature-box {
