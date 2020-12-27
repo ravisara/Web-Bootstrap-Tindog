@@ -62,8 +62,6 @@ p {
 }
 
 .title-image {
-
-  /* width: 60%; Although in the course answer this is used, this makes the image go larger than even the actaul size*/
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
@@ -77,6 +75,19 @@ p {
 
 .icon:hover {
   color: #ff4c68
+}
+
+@media (max-width: 1028px) {
+
+  h1 {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+  
 }
 
 /* Features section */
