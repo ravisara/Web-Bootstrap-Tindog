@@ -25,13 +25,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
             </li>
           </ul>
         </div>
@@ -39,11 +39,10 @@
 
       <!-- Title -->
       <div class="row">
-        <!-- mb-4 was added as in mobile viewport sizes the gap between the phone and the buttons was not enough. This is not given in the course material to my knowledge. -->
-        <div class="col-lg-6 mb-4">
+        <div class="col-lg-6">
           <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg"><span class="fab fa-apple download-button"></span>Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg"><span class="fab fa-google-play"></span>Download</button>
+          <button type="button" class="btn btn-dark btn-lg download-button"><span class="fab fa-apple"></span>Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><span class="fab fa-google-play"></span>Download</button>
         </div>
         <div class="col-lg-6">
           <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
@@ -186,18 +185,17 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 class="cta-title">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-button"><span class="fab fa-apple"></span>Download</button>
+    <button type="button" class="btn btn-light btn-lg download-button"><span class="fab fa-google-play"></span>Download</button>
 
   </section>
 
   <!-- Footer -->
 
   <footer id="footer">
-
+    <span class="fab fa-twitter contact-icons"></span><span class="fab fa-facebook-f contact-icons"></span><span class="fab fa-instagram contact-icons"></span><span class="fas fa-envelope contact-icons"></span>
     <p>© Copyright 2018 TinDog</p>
-
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
