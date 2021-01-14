@@ -8,11 +8,19 @@ body {
   padding: 7% 15%;
 }
 
+/* Sections */
 
+.coloured-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: white;
+}
 
 /* Headings */
 
-/* 09:30 is a good place to continue from on  https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12299886#overview*/
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Bold";
 }
@@ -26,14 +34,6 @@ h1, h2, h3, h4, h5, h6 {
 p {
   color: #8f8f8f;
 }
-
-/* .cta-title {
-  font-family: "Montserrat-Black";
-  font-size: 1.7rem;
-  font-weight: bold;
-  line-height: 1.5;
-  color: #fff;
-} */
 
 .section-heading {
   font-size: 3rem;
@@ -72,17 +72,14 @@ p {
 }
 
 /* Title section */
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
-}
 
 #title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
 /* Title image */
+
 .title-image {
   width: 60%;
   transform: rotate(25deg);
@@ -99,7 +96,6 @@ p {
   color: #ff4c68;
 }
 
-
 @media (max-width: 1028px) {
   h1 {
     text-align: center;
@@ -112,8 +108,8 @@ p {
 }
 
 /* Features section */
+
 #features {
-  background-color: white;
   position: relative;
 }
 
@@ -126,9 +122,9 @@ p {
 }
 
 /* Testimonials section */
+
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-text {
@@ -143,6 +139,7 @@ p {
 }
 
 /* Press section */
+
 #press {
   background-color: #ef8172;
   padding-bottom: 3%;
@@ -154,6 +151,7 @@ p {
 }
 
 /* Pricing section */
+
 #pricing {
   padding: 100px;
 }
@@ -168,10 +166,6 @@ p {
 }
 
 /* CTA - Call to action - section */
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
-}
 
 /* Footer section */
 .contact-icons {
