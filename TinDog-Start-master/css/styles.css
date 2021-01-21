@@ -100,14 +100,16 @@ p {
 }
 
 @media (max-width: 1028px) {
-  h1 {
+
+  #title {
     text-align: center;
   }
 
   .title-image {
     position: static;
-    transform: rotate(0deg);
+    transform: rotate(0);
   }
+
 }
 
 /* Features section */
